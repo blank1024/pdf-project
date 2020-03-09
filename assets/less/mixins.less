@@ -1,0 +1,18 @@
+.table-container {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    & + .table-container {
+        margin-top: -1px;
+    }
+    th {
+        padding: 7px 0;
+        font-weight: normal;
+        border: 1px solid #cccccc;
+    }
+    td {
+        padding: 7px 0;
+        border: 1px solid #cccccc;
+        text-align: center;
+    }
+}
